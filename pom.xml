@@ -11,6 +11,9 @@
     <modules>
         <module>logback-custom-layout</module>
         <module>json-schema-validator</module>
+        <module>chat-websockets</module>
+        <module>spring-reactive-hello-world</module>
+        <module>jacson-object-mapper</module>
     </modules>
 
     <parent>
@@ -30,6 +33,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+            <version>2.3.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -37,6 +41,10 @@
             <version>2.2.7.RELEASE</version>
         </dependency>
 
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId></artifactId>
+        </dependency>
     </dependencies>
 
     <build>
