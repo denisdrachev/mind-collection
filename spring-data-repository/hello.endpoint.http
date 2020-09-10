@@ -1,0 +1,34 @@
+GET http://localhost:8080/books
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name": "book1"
+}
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name": "book2"
+}
+
+###
+
+GET http://localhost:8080/books/2
+
+###
+
+PUT http://localhost:8080/books/1
+Content-Type: application/json
+
+{
+  "name": "book22222222"
+}
+
+###

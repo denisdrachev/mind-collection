@@ -14,6 +14,12 @@
         <module>chat-websockets</module>
         <module>spring-reactive-hello-world</module>
         <module>jacson-object-mapper</module>
+        <module>gRPC</module>
+        <module>configuration-properties</module>
+        <module>reactive-server</module>
+        <module>reactive-client</module>
+        <module>entity-field-validation</module>
+        <module>spring-data-repository</module>
     </modules>
 
     <parent>
@@ -40,11 +46,16 @@
             <artifactId>spring-boot-starter</artifactId>
             <version>2.2.7.RELEASE</version>
         </dependency>
-
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId></artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>2.3.1.RELEASE</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>junit</groupId>-->
+<!--            <artifactId></artifactId>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
