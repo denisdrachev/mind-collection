@@ -1,0 +1,11 @@
+jasypt:
+    encryptor:
+        algorithm: PBEWithMD5AndDES
+        iv-generator-classname: org.jasypt.iv.NoIvGenerator
+        password: password
+
+secret2:
+    property: ENC(wegX/tyLjnCKbDjVCwIUXv0q3piRXSVX)
+logging:
+    level:
+        root: INFO

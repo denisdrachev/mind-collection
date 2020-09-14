@@ -2,24 +2,45 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="json-schema-validator" />
-        <module name="spring-reactive-hello-world" />
-        <module name="jacson-object-mapper" />
-        <module name="chat-websockets" />
+        <module name="spring-boot-jasypt" />
+        <module name="entity-field-validation" />
+        <module name="configuration-properties" />
+        <module name="reactive-client" />
+        <module name="gRPC" />
         <module name="logback-custom-layout" />
+        <module name="EntityFieldValidation" />
+        <module name="jacson-object-mapper" />
+        <module name="reactive-server" />
+        <module name="chat-websockets" />
+        <module name="spring-data-repository" />
+        <module name="spring-reactive-hello-world" />
+        <module name="json-schema-validator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="entity-field-validation" target="1.8" />
+      <module name="EntityFieldValidation" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EntityFieldValidation" options="-parameters" />
       <module name="chat-websockets" options="-parameters" />
+      <module name="configuration-properties" options="-parameters" />
+      <module name="entity-field-validation" options="-parameters" />
+      <module name="gRPC" options="-parameters" />
       <module name="jacson-object-mapper" options="-parameters" />
       <module name="json-schema-validator" options="-parameters" />
       <module name="logback-custom-layout" options="-parameters" />
+      <module name="reactive-client" options="-parameters" />
+      <module name="reactive-server" options="-parameters" />
+      <module name="spring-boot-jasypt" options="-parameters" />
+      <module name="spring-data-repository" options="-parameters" />
       <module name="spring-reactive-hello-world" options="-parameters" />
     </option>
   </component>

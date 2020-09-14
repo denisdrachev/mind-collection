@@ -20,6 +20,7 @@
         <module>reactive-client</module>
         <module>entity-field-validation</module>
         <module>spring-data-repository</module>
+        <module>spring-boot-jasypt</module>
     </modules>
 
     <parent>

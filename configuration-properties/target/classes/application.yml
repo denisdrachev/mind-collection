@@ -1,0 +1,9 @@
+options:
+  test: 15
+  mail:
+    send: true
+  users:
+    default:
+      active: false
+logging:
+  config: classpath:logback.xml
