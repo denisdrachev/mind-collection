@@ -17,8 +17,8 @@
         <module name="jacson-object-mapper" />
         <module name="reactive-server" />
         <module name="chat-websockets" />
+        <module name="spring-exception-handler" />
         <module name="spring-data-repository" />
-        <module name="spring-reactive-hello-world" />
         <module name="json-schema-validator" />
       </profile>
     </annotationProcessing>
@@ -41,6 +41,7 @@
       <module name="reactive-server" options="-parameters" />
       <module name="spring-boot-jasypt" options="-parameters" />
       <module name="spring-data-repository" options="-parameters" />
+      <module name="spring-exception-handler" options="-parameters" />
       <module name="spring-reactive-hello-world" options="-parameters" />
     </option>
   </component>

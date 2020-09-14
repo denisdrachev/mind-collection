@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-reactive-hello-world</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-exception-handler</module>
+    </modules>
 
     <dependencies>
         <dependency>
